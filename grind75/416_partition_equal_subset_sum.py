@@ -22,3 +22,5 @@ class Solution:
             memo[idx][curr_sum] = result
             return result
         return dfs(0, 0)
+    
+## time complexity: O(m * n)
