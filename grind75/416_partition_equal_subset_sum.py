@@ -24,3 +24,20 @@ class Solution:
         return dfs(0, 0)
     
 ## time complexity: O(m * n)
+
+## bottom-up dp solution
+class Solution:
+    def canPartition(self, nums: list[int]) -> bool:
+        total_sum = sum(nums)
+        subset_sum = total_sum // 2
+        if total_sum % 2 == 1:
+            return False
+
+        dp = [False for i in range(subset_sum + 1)]
+        dp[0] = True
+
+        for curr in nums:
+            for i in range(subset_sum, curr-1, -1):
+                dp[i] = dp[i] or dp[i - curr]
+
+        return dp[-1] 
