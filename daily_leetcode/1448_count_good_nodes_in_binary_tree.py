@@ -7,7 +7,6 @@ class TreeNode:
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         count = 0
-
         def dfs(node, max_on_path):
             if not node:
                 return
