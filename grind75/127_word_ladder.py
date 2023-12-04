@@ -48,3 +48,21 @@ class Solution:
                     /    |   \         |        |
                 hot,2   dot,3  lot,3   hot,2    hot,2	
 '''
+
+
+{
+    "user": {},
+    "patient": {},
+    "condition": {},
+    "observationVitals": {},
+    "observationLabs": {},
+    "diagnosticReport": {},
+    "procedure": {},
+    "listFamilyHistory": {},
+    "listProblems": {},
+    "listAllergies": {},
+    "clinicalNoteRef": {},
+    "externalCCDARef": {},
+    "handoffRef": {},
+    "binaries": {}
+ }
