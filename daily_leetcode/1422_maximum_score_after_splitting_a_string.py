@@ -15,7 +15,6 @@ class Solution:
             if s[i] == "1":
                 count_1 += 1
             ones_from_right[i-1] = count_1
-        # ones_from_right[0] = ones_from_right[1] ## added
         
         max_val = float('-inf')
         for i in range(n-1):
