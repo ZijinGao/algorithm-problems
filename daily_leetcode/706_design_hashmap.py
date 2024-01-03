@@ -24,7 +24,7 @@ class Bucket:
 
 class MyHashMap:
     def __init__(self):
-        self.key_space = 1197
+        self.key_space = 1297
         self.hash_table = [Bucket() for _ in range(self.key_space)]
 
     def put(self, key: int, value: int) -> None:
