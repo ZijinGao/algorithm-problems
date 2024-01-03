@@ -20,5 +20,3 @@ class Solution:
             if len(n) == 1:
                 set_cols.update(n)
         return len(set_rows.intersection(set_cols))
-        
-        
