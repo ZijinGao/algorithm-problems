@@ -1,4 +1,3 @@
-# only move the numbers back when needed 
 class MyQueue:
     def __init__(self):
         self.stack1 = []
