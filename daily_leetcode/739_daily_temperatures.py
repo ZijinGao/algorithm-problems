@@ -1,6 +1,6 @@
 from collections import deque
 class Solution:
-    def dailyTemperatures(self, t: List[int]) -> List[int]:
+    def dailyTemperatures(self, t: list[int]) -> list[int]:
         if len(t) == 1:
             return [0]
         queue = deque()
